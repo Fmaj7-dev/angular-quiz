@@ -20,7 +20,7 @@
 -->
 
 <!-------------------------------- -->
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Vocabulary Quiz</title>
@@ -28,9 +28,9 @@
     <link rel="stylesheet" href="/style.css">
     
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <!--<meta name="viewport" content="width=720, initial-scale=1"> -->
 </head>
 <body>
+-->
 
 <div class="header">
   <h1>Vocabulary Quiz</h1>
@@ -39,11 +39,11 @@
 
 <div class="navbar">
 
-  <a href="/random">Vocabulary</a>
-  <a href="/verb/random">Verbs</a>
+  <a href="/vocabulary">Vocabulary</a>
+  <a href="/verbs">Verbs</a>
   <a href="/stats">Stats</a>
   <a href="/logout" class="right">Logout</a>
-  <a class="right">Logged in as: {{ app.user.name }}</a>
+  <a class="right">Logged in as: ET</a>
 </div>
 
 <!--
@@ -53,12 +53,14 @@
 </div>
 -->
 
+<router-outlet></router-outlet>
 
 <div class="footer">
   <h2>FMaj7 2019</h2>
 </div>
 
+<!--
 </body>
 </html>
-
+-->
 
